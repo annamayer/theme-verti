@@ -1,0 +1,51 @@
+.button{
+	font-weight: 800;
+}
+
+.button {
+	font-family: @ipFontFamily;
+}
+
+.button-alt{
+	background: @backgroudAlternative;
+	color: @textColor;
+}
+
+#nav {
+	float: right;
+	font-size: 0.8em;
+	margin-bottom: 20px;
+	margin-right: 10px;
+	right: 0;
+	top: 0;
+}
+
+#nav ul li {
+	float: left;
+	padding-left: 1.5em;
+	white-space:nowrap;
+}
+
+#nav ul li a {
+	font-weight: 800;
+	letter-spacing: 0.025em;
+	color: #696969;
+	text-decoration: none;
+	border-radius: 6px;
+	padding: 0.5em 1em 0.5em 1em;
+	-moz-transition: background-color .25s ease-in-out;
+	-webkit-transition: background-color .25s ease-in-out;
+	-o-transition: background-color .25s ease-in-out;
+	-ms-transition: background-color .25s ease-in-out;
+	transition: background-color .25s ease-in-out;
+}
+
+#nav ul li:hover a {
+	background: rgba(255,255,255,0.5);
+}
+
+#nav ul li.current a {
+	background: #444;
+	color: #fff;
+}
+

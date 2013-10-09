@@ -1,0 +1,1557 @@
+/* Edit theme.less, not this file. */ html {
+  background: #f7f7f7 url('images/bg.jpg');
+  height: 100%;
+}
+.body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12pt;
+  color: #696969;
+  font-weight: 300;
+  background: url('images/bgshadow.png') top left no-repeat;
+  background-size: 100% 100%;
+}
+.body h1,
+.body h2,
+.body h3,
+.body h4,
+.body h5,
+.body h6 {
+  color: #444;
+  font-weight: 800;
+}
+.body h1 a,
+.body h2 a,
+.body h3 a,
+.body h4 a,
+.body h5 a,
+.body h6 a {
+  color: inherit;
+  text-decoration: none;
+  outline: 0;
+}
+.body br.clear {
+  clear: both;
+}
+.body section,
+.body article {
+  margin-bottom: 5em;
+}
+.body section > :last-child,
+.body article > :last-child {
+  margin-bottom: 0;
+}
+.body section:last-child,
+.body article:last-child {
+  margin-bottom: 0;
+}
+#main-wrapper {
+  background: #fff;
+  box-shadow: 0px 3px 0px 0px rgba(0,0,0,0.05);
+}
+.image {
+  display: inline-block;
+  outline: 0;
+}
+.image img {
+  display: block;
+  width: 100%;
+  border-radius: 8px;
+}
+.image-full {
+  display: block;
+  width: 100%;
+  margin: 0 0 2.5em 0;
+}
+.image-left {
+  float: left;
+  margin: 0 2em 2em 0;
+}
+.image-centered {
+  display: block;
+  margin: 0 0 2.5em 0;
+}
+.image-centered img {
+  margin: 0 auto;
+  width: auto;
+}
+.button {
+  display: inline-block;
+  background: #0090c5;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 800;
+  outline: 0;
+  -moz-transition: background-color .25s ease-in-out;
+  -webkit-transition: background-color .25s ease-in-out;
+  -o-transition: background-color .25s ease-in-out;
+  -ms-transition: background-color .25s ease-in-out;
+  transition: background-color .25s ease-in-out;
+}
+.button:hover {
+  background-color: #e11e1e;
+}
+.button-icon {
+  position: relative;
+}
+.button-icon:after {
+  content: '';
+  width: 54px;
+}
+.button-icon:before {
+  background: url('images/icons.png');
+  content: '';
+  display: inline-block;
+  height: 48px;
+  margin-top: -24px;
+  position: absolute;
+  right: 0.75em;
+  top: 50%;
+  width: 48px;
+}
+.button-icon-rarrow:before {
+  background-position: 0px 0px;
+}
+.button-icon-paper:before {
+  background-position: -48px 0px;
+}
+.button-icon-question:before {
+  background-position: 0px -48px;
+}
+.button-alt {
+  background: #f1f1f1;
+  color: #444;
+}
+.button-alt:hover {
+  background: #e8e8e8;
+}
+.button-alt:active {
+  background: #e4e4e4;
+}
+.byline {
+  display: block;
+}
+header {
+  margin: 0 0 2em 0;
+}
+header h2,
+header h3 {
+  margin: 0 0 0.25em 0;
+}
+header .byline {
+  margin: 0;
+}
+footer {
+  margin: 2.5em 0 0 0;
+}
+.box {
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.015);
+  box-shadow: 0px 3px 0px 0px rgba(0,0,0,0.05);
+}
+.button {
+  font-size: 1.35em;
+  padding: 0.8em 1.5em 0.8em 1.5em;
+}
+.button-big {
+  font-size: 2.25em;
+  padding: 0.8em 0.9em 0.8em 0.9em;
+}
+.box {
+  padding: 2em;
+}
+.box-feature {
+  padding: 0;
+}
+.box-feature .inner {
+  padding: 4em 2em 3em 2em;
+}
+.box-feature h2 {
+  font-size: 1.35em;
+}
+.box-feature p {
+  margin: 0;
+}
+.box-feature .image {
+  position: relative;
+  margin: 0;
+}
+.box-feature .image img {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.widget-thumbnails .grid {
+  margin-bottom: 2.5em;
+}
+.widget-contact ul {
+  left: -4px;
+  margin-bottom: 1.5em;
+  overflow: hidden;
+  position: relative;
+  top: 4px;
+}
+.widget-contact ul li {
+  display: block;
+  float: left;
+}
+.widget-contact ul li a {
+  -moz-transition: opacity .25s ease-in-out;
+  -ms-transition: opacity .25s ease-in-out;
+  -o-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+  background: url('images/icons.png');
+  display: block;
+  height: 48px;
+  opacity: 0.75;
+  text-indent: -9999px;
+  transition: opacity .25s ease-in-out;
+  width: 48px;
+}
+.widget-contact ul li a:hover {
+  opacity: 1.0;
+}
+.widget-contact ul li a.twitter {
+  background-position: -48px -48px;
+}
+.widget-contact ul li a.facebook {
+  background-position: -96px -48px;
+}
+.widget-contact ul li a.dribbble {
+  background-position: -144px -48px;
+}
+.widget-contact ul li a.googleplus {
+  background-position: -192px -48px;
+}
+.clear {
+  clear: both;
+  display: block;
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+}
+.clearfix {
+  zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  content: '.';
+  display: block;
+  font-size: 0;
+  height: 0;
+  line-height: 0;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+}
+.clearfix:after {
+  clear: both;
+}
+html,
+body {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+.caption {
+  color: #000000;
+  font-family: 'Oleo Script', serif;
+  font-size: 1.35em;
+  font-style: normal;
+  font-weight: normal;
+}
+.signature {
+  color: #000000;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12pt;
+  font-style: italic;
+  font-weight: normal;
+}
+.note {
+  background-color: transparent;
+  border-left-color: #747474;
+  border-left-style: solid;
+  border-left-width: 2px;
+  color: #000000;
+  display: block;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12pt;
+  font-style: italic;
+  font-weight: normal;
+  margin-bottom: 2em;
+  padding-left: 1em;
+}
+.button {
+  background-color: #a71616;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  padding: 0.5em 1em 0.5em 1em;
+  text-decoration: none;
+}
+.ipWidget {
+  zoom: 1;
+  margin-bottom: 20px;
+}
+.ipWidget:before,
+.ipWidget:after {
+  content: '.';
+  display: block;
+  font-size: 0;
+  height: 0;
+  line-height: 0;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+}
+.ipWidget:after {
+  clear: both;
+}
+.ipWidget:last-child {
+  margin-bottom: 0;
+}
+.ipPreviewWidget {
+  color: #000000;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12pt;
+}
+.ipPreviewWidget h1,
+.ipPreviewWidget h2,
+.ipPreviewWidget h3,
+.ipPreviewWidget h4,
+.ipPreviewWidget h5,
+.ipPreviewWidget h6,
+.ipPreviewWidget img,
+.ipPreviewWidget blockquote,
+.ipPreviewWidget p,
+.ipPreviewWidget ul,
+.ipPreviewWidget ol,
+.ipPreviewWidget li,
+.ipPreviewWidget dl,
+.ipPreviewWidget dd,
+.ipPreviewWidget dt,
+.ipPreviewWidget pre {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+.ipPreviewWidget .caption {
+  color: #000000;
+  font-family: 'Oleo Script', serif;
+  font-size: 1.35em;
+  font-style: normal;
+  font-weight: normal;
+}
+.ipPreviewWidget .signature {
+  color: #000000;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12pt;
+  font-style: italic;
+  font-weight: normal;
+}
+.ipPreviewWidget .note {
+  background-color: transparent;
+  border-left-color: #747474;
+  border-left-style: solid;
+  border-left-width: 2px;
+  color: #000000;
+  display: block;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12pt;
+  font-style: italic;
+  font-weight: normal;
+  margin-bottom: 2em;
+  padding-left: 1em;
+}
+.ipPreviewWidget .button {
+  display: inline-block;
+  background: #0090c5;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 800;
+  outline: 0;
+  -moz-transition: background-color .25s ease-in-out;
+  -webkit-transition: background-color .25s ease-in-out;
+  -o-transition: background-color .25s ease-in-out;
+  -ms-transition: background-color .25s ease-in-out;
+  transition: background-color .25s ease-in-out;
+  font-size: 1.35em;
+  padding: 0.8em 1.5em 0.8em 1.5em;
+  background-color: #a71616;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  padding: 0.5em 1em 0.5em 1em;
+}
+.ipPreviewWidget h1 {
+  color: #cc2929;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.6875em;
+}
+.ipPreviewWidget h2 {
+  color: #cc2929;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.51875em;
+}
+.ipPreviewWidget h3 {
+  color: #cc2929;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.35em;
+}
+.ipPreviewWidget ul {
+  list-style-position: inside;
+  list-style-type: square;
+  margin: 0 0 2em 1em;
+}
+.ipPreviewWidget ol {
+  list-style-position: inside;
+  margin: 0 0 2em 1em;
+}
+.ipPreviewWidget p {
+  line-height: 1.5;
+  margin-bottom: 2em;
+}
+.ipPreviewWidget ul ul,
+.ipPreviewWidget ol ol {
+  margin-bottom: 0;
+}
+.ipPreviewWidget li {
+  line-height: 1.5;
+  margin-bottom: 5px;
+}
+.ipPreviewWidget p+ul,
+.ipPreviewWidget p+ol {
+  margin-top: -1em;
+}
+.ipPreviewWidget a {
+  color: #a71616;
+  text-decoration: none;
+}
+.ipPreviewWidget a:hover {
+  text-decoration: underline;
+}
+.ipPreviewWidget table {
+  border-collapse: collapse;
+  color: #000000;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12pt;
+  width: 100%;
+}
+.ipPreviewWidget table p {
+  line-height: auto;
+  margin: 0;
+}
+.ipPreviewWidget td {
+  border-bottom: 1px solid #b2b2b2;
+  font-size: 12pt;
+  padding: 9px;
+}
+.ipPreviewWidget th,
+.ipPreviewWidget thead td,
+.ipPreviewWidget tbody tr:first-child td {
+  font-size: 12pt;
+  font-weight: bold;
+}
+.ipPreviewWidget thead+tbody tr:first-child td {
+  background-color: transparent;
+  border-bottom: 1px solid #8e8e8e;
+  color: inherit;
+  font-size: 12pt;
+  font-weight: normal;
+}
+.ipPreviewWidget p:last-child,
+.ipPreviewWidget ul:last-child,
+.ipPreviewWidget ol:last-child {
+  margin-bottom: 0;
+}
+.ipModuleForm form,
+.ipModuleForm fieldset,
+.ipModuleForm label {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+.ipModuleForm input,
+.ipModuleForm select,
+.ipModuleForm textarea,
+.ipModuleForm option {
+  font-family: 12pt;
+  font-size: 'Open Sans', sans-serif;
+}
+.ipModuleForm .ipmPage {
+  max-width: 100%;
+  overflow: auto;
+}
+.ipModuleForm .ipmField {
+  margin-bottom: 20px;
+  position: relative;
+  zoom: 1;
+}
+.ipModuleForm .ipmField:before,
+.ipModuleForm .ipmField:after {
+  content: '.';
+  display: block;
+  font-size: 0;
+  height: 0;
+  line-height: 0;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+}
+.ipModuleForm .ipmField:after {
+  clear: both;
+}
+.ipModuleForm .ipmField:last-child {
+  margin-bottom: 0;
+}
+.ipModuleForm .ipmType-blank {
+  margin: -20px 0 0;
+  position: absolute;
+}
+.ipModuleForm .ipmLabel {
+  display: block;
+  font-weight: bold;
+  margin: 0 0 3px 0;
+  min-height: 1px;
+}
+.ipModuleForm .ipmControlBlank {
+  height: 0;
+  margin: 0;
+  padding: 0;
+  visibility: hidden;
+  width: 0;
+}
+.ipModuleForm .ipmControlInput {
+  background-color: #fff;
+  border: 1px solid #747474;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #000000;
+  margin: 0;
+  max-width: 380px;
+  padding: 0.5em;
+  width: 100%;
+}
+.ipModuleForm .ipmControlInput:focus {
+  background-color: #fff;
+  border-color: #000;
+  color: #000000;
+}
+.ipModuleForm .ipmControlTextarea {
+  background-color: #fff;
+  border: 1px solid #747474;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #000000;
+  margin: 0;
+  max-width: 380px;
+  padding: 0.5em;
+  width: 100%;
+  height: 10em;
+  overflow: auto;
+}
+.ipModuleForm .ipmControlTextarea:focus {
+  background-color: #fff;
+  border-color: #000;
+  color: #000000;
+}
+.ipModuleForm .ipmControlSelect {
+  background-color: #fff;
+  border: 1px solid #747474;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #000000;
+  margin: 0;
+  max-width: 380px;
+  padding: 0.5em;
+  width: 100%;
+}
+.ipModuleForm .ipmControlSelect:focus {
+  background-color: #fff;
+  border-color: #000;
+  color: #000000;
+}
+.ipModuleForm .ipmType-confirm .ipmControlCheckbox {
+  float: left;
+}
+.ipModuleForm .ipmControlConfirmOptions {
+  margin-left: 25px;
+}
+.ipModuleForm .ipmType-captcha .ipmControl img {
+  display: block;
+  max-width: 100%;
+}
+.ipModuleForm .ipmNote {
+  color: #333333;
+  font-size: 12px;
+}
+.ipModuleForm .ipmHint {
+  background-color: #747474;
+  color: #fff;
+  display: none;
+  font-size: 12px;
+  padding: 4px 10px 2px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 50%;
+  z-index: 1;
+}
+.ipModuleForm .ipmField:hover .ipmHint {
+  display: block;
+}
+.ipModuleForm .ipmControlSubmit {
+  background: #a71616;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  margin: 0;
+  padding: 0.5em 1em;
+}
+.ipModuleForm .ipmControlSubmit:hover {
+  box-shadow: 0 0 0 1px #a71616 inset;
+  background: #4d0a0a;
+}
+.ipModuleForm .ipmControlError {
+  border-color: #b80000;
+}
+.ipModuleForm .ipmFileContainer .ipmHiddenInput {
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}
+.ipModuleForm .ipmFileContainer .ipmHiddenInput input {
+  margin: 0;
+  padding: 0;
+}
+.ipModuleForm .ipmFileContainer .ipmFile {
+  background-color: #a7a7a7;
+  margin-top: 5px;
+  padding: 0.5em;
+}
+.ipModuleForm .ipmFileContainer .ipmFile .ipmRemove {
+  cursor: pointer;
+  float: right;
+}
+.ipModuleForm .ipmFileContainer .ipmFile .ipmRemove:before {
+  border: 1px solid #747474;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 13px;
+  color: #000000;
+  content: '\00D7';
+  display: inline-block;
+  height: 15px;
+  line-height: 15px;
+  text-align: center;
+  width: 15px;
+}
+.ipModuleForm .ipmFileContainer .ipmFile .ipmRemove:hover:before {
+  background-color: #000;
+  color: #fff;
+}
+.ipModuleForm .ipmFileContainer .ipmFile .ipmFileProgress {
+  border: 1px solid #747474;
+  height: 3px;
+}
+.ipModuleForm .ipmFileContainer .ipmFile .ipmFileProgressValue {
+  background-color: #747474;
+  height: 3px;
+}
+.ipModuleForm .ipmFileContainer .ipmFile .ipmUploadError {
+  color: #b80000;
+  font-size: 12px;
+}
+.ipmErrorMessage {
+  background-color: #b80000;
+  color: #fff;
+  font-size: 12px;
+  padding: 4px 10px 2px;
+}
+.mceContentBody {
+  color: #000000;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12pt;
+  background-color: #fff;
+}
+.mceContentBody h1,
+.mceContentBody h2,
+.mceContentBody h3,
+.mceContentBody h4,
+.mceContentBody h5,
+.mceContentBody h6,
+.mceContentBody img,
+.mceContentBody blockquote,
+.mceContentBody p,
+.mceContentBody ul,
+.mceContentBody ol,
+.mceContentBody li,
+.mceContentBody dl,
+.mceContentBody dd,
+.mceContentBody dt,
+.mceContentBody pre {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+.mceContentBody .caption {
+  color: #000000;
+  font-family: 'Oleo Script', serif;
+  font-size: 1.35em;
+  font-style: normal;
+  font-weight: normal;
+}
+.mceContentBody .signature {
+  color: #000000;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12pt;
+  font-style: italic;
+  font-weight: normal;
+}
+.mceContentBody .note {
+  background-color: transparent;
+  border-left-color: #747474;
+  border-left-style: solid;
+  border-left-width: 2px;
+  color: #000000;
+  display: block;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12pt;
+  font-style: italic;
+  font-weight: normal;
+  margin-bottom: 2em;
+  padding-left: 1em;
+}
+.mceContentBody .button {
+  display: inline-block;
+  background: #0090c5;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 800;
+  outline: 0;
+  -moz-transition: background-color .25s ease-in-out;
+  -webkit-transition: background-color .25s ease-in-out;
+  -o-transition: background-color .25s ease-in-out;
+  -ms-transition: background-color .25s ease-in-out;
+  transition: background-color .25s ease-in-out;
+  font-size: 1.35em;
+  padding: 0.8em 1.5em 0.8em 1.5em;
+  background-color: #a71616;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  padding: 0.5em 1em 0.5em 1em;
+}
+.mceContentBody h1 {
+  color: #cc2929;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.6875em;
+}
+.mceContentBody h2 {
+  color: #cc2929;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.51875em;
+}
+.mceContentBody h3 {
+  color: #cc2929;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.35em;
+}
+.mceContentBody ul {
+  list-style-position: inside;
+  list-style-type: square;
+  margin: 0 0 2em 1em;
+}
+.mceContentBody ol {
+  list-style-position: inside;
+  margin: 0 0 2em 1em;
+}
+.mceContentBody p {
+  line-height: 1.5;
+  margin-bottom: 2em;
+}
+.mceContentBody ul ul,
+.mceContentBody ol ol {
+  margin-bottom: 0;
+}
+.mceContentBody li {
+  line-height: 1.5;
+  margin-bottom: 5px;
+}
+.mceContentBody p+ul,
+.mceContentBody p+ol {
+  margin-top: -1em;
+}
+.mceContentBody a {
+  color: #a71616;
+  text-decoration: none;
+}
+.mceContentBody a:hover {
+  text-decoration: underline;
+}
+.mceContentBody table {
+  border-collapse: collapse;
+  color: #000000;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12pt;
+  width: 100%;
+}
+.mceContentBody table p {
+  line-height: auto;
+  margin: 0;
+}
+.mceContentBody td {
+  border-bottom: 1px solid #b2b2b2;
+  font-size: 12pt;
+  padding: 9px;
+}
+.mceContentBody th,
+.mceContentBody thead td,
+.mceContentBody tbody tr:first-child td {
+  font-size: 12pt;
+  font-weight: bold;
+}
+.mceContentBody thead+tbody tr:first-child td {
+  background-color: transparent;
+  border-bottom: 1px solid #8e8e8e;
+  color: inherit;
+  font-size: 12pt;
+  font-weight: normal;
+}
+.mceContentBody p:last-child,
+.mceContentBody ul:last-child,
+.mceContentBody ol:last-child {
+  margin-bottom: 0;
+}
+.mceContentBody p,
+.mceContentBody li {
+  line-height: 2.5em;
+}
+.mceContentBody h1 {
+  line-height: 1.5em;
+}
+.mceContentBody ul {
+  margin: 0;
+}
+.ipWidget-IpFaq {
+  padding-left: 30px;
+}
+.ipWidget-IpFaq .ipwQuestion {
+  color: #000000;
+  cursor: pointer;
+  font-family: 'Oleo Script', serif;
+  font-size: 18px;
+  text-decoration: none;
+}
+.ipWidget-IpFaq .ipwQuestion:hover {
+  text-decoration: underline;
+}
+.ipWidget-IpFaq .ipwQuestion:hover:before {
+  background-color: #f3f3f3;
+}
+.ipWidget-IpFaq .ipwQuestion:before {
+  border: 1px solid #000;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  color: #000000;
+  content: '?';
+  display: block;
+  margin: 3px 0 0 -30px;
+  padding: 1px 2px;
+  position: absolute;
+}
+.ipWidget-IpFaq .ipwQuestion .ipwAnswer {
+  margin-top: 5px;
+}
+.ipWidget-IpFaq .ipwQuestion .ipwCollapsed .ipwAnswer {
+  display: none;
+}
+.ipWidget-IpFaq .ipwExpanded .ipwQuestion:before {
+  background-color: #000;
+  color: #fff;
+}
+.ipWidget-IpFile ul {
+  list-style: none;
+  margin-left: 0;
+}
+.ipWidget-IpFile a {
+  color: #a71616;
+  font-weight: bold;
+}
+.ipWidget-IpFile a:hover {
+  text-decoration: underline;
+}
+.ipWidget-IpForm .ipwSuccess {
+  border: 1px solid #888;
+  display: none;
+  padding: 20px 25px;
+}
+.ipWidget-IpHtml {
+  max-width: 100%;
+  overflow: auto;
+}
+.ipWidget-IpImage img {
+  display: block;
+  max-width: 100%;
+}
+.ipWidget-IpImageGallery {
+  margin-bottom: 0px;
+}
+.ipWidget-IpImageGallery ul {
+  list-style: none;
+  margin: 0 -10px;
+}
+.ipWidget-IpImageGallery li {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  float: left;
+  margin-bottom: 20px;
+  padding: 0 10px;
+  width: 25%;
+}
+.ipWidget-IpImageGallery li img {
+  display: block;
+  width: 100%;
+}
+@media screen and (max-width: 480px) {
+  .ipWidget-IpImageGallery ul {
+    margin: 0 -10px;
+  }
+  .ipWidget-IpImageGallery li {
+    width: 50%;
+    margin-bottom: 20px;
+    padding: 0 10px;
+  }
+}
+.ipWidget-IpLogoGallery {
+  margin-bottom: 0px;
+}
+.ipWidget-IpLogoGallery ul {
+  list-style: none;
+  margin: 0 -10px;
+}
+.ipWidget-IpLogoGallery li {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  float: left;
+  margin-bottom: 20px;
+  padding: 0 10px;
+  width: 25%;
+}
+.ipWidget-IpLogoGallery li img {
+  display: block;
+  width: 100%;
+}
+@media screen and (max-width: 480px) {
+  .ipWidget-IpLogoGallery ul {
+    margin: 0 -10px;
+  }
+  .ipWidget-IpLogoGallery li {
+    width: 50%;
+    margin-bottom: 20px;
+    padding: 0 10px;
+  }
+}
+.ipWidget-IpRichText pre {
+  max-width: 100%;
+  overflow: auto;
+}
+.ipWidget-IpSeparator.ipLayout-default {
+  border-bottom: 1px solid #747474;
+  height: 0;
+  overflow: hidden;
+}
+.ipWidget-IpSeparator.ipLayout-space {
+  height: 25px;
+}
+.ipWidget-IpTable {
+  max-width: 100%;
+  overflow: auto;
+}
+.ipWidget-IpTextImage .ipwImage {
+  float: left;
+  margin: 0 20px 20px 0;
+  max-width: 100%;
+}
+.ipWidget-IpTextImage.ipLayout-right .ipwImage {
+  float: right;
+  margin: 0 0 20px 20px;
+}
+.ipWidget-IpTitle {
+  margin-bottom: 10px;
+  padding-top: 10px;
+}
+.ipWidget-IpTitle:first-child {
+  padding-top: 0;
+}
+.noSideBarContent .ipPreviewWidget {
+  font-size: 16px;
+}
+.noSideBarContent .ipPreviewWidget p {
+  line-height: 2em;
+}
+.ipModuleForm .ipmControlSubmit:hover {
+  background-color: #e11e1e;
+}
+.ipWidget-IpImage img,
+.ipWidget-IpImageGallery ul li a img {
+  border-radius: 8px;
+}
+.ipWidget-IpImageGallery ul li {
+  display: inline-block;
+  padding-right: 7px;
+}
+.ipPreviewWidget p,
+.ipPreviewWidget li {
+  line-height: 2.5em;
+}
+.ipPreviewWidget h1 {
+  line-height: 1.5em;
+}
+.ipPreviewWidget ul {
+  margin: 0;
+}
+footer .ipPreviewWidget {
+  color: #401616;
+}
+.ipmErrorMessage p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12pt;
+}
+.ipWidget-IpLogoGallery li {
+  padding: 0;
+}
+h1.ipwTitle {
+  font-size: 1.35em;
+}
+h2.ipwTitle {
+  font-size: 1.215em;
+}
+h3.ipwTitle {
+  font-size: 1.0125em;
+}
+.ipWidget .caption {
+  font-weight: bold;
+  font-style: italic;
+}
+.ipWidget .signature {
+  font-style: italic;
+  font-size: 1.0125em;
+}
+.ipWidget .note {
+  font-size: 1.35em;
+}
+.ipWidget-IpFaq .ipwQuestion,
+.ipWidget-IpFaq .ipwAnswer {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12pt;
+  font-weight: bold;
+}
+.ipWidget-IpLogoGallery ul li {
+  display: inline;
+  list-style: none;
+}
+.ipmControlInput,
+.ipmControlBlank,
+.ipmControl select,
+.ipmControl textarea {
+  border: 1px solid #cccccc;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12pt;
+}
+.ipmControl textarea {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+.ipmControlSubmit {
+  background-color: #a71616;
+  border-radius: 5px;
+  border: none;
+  color: #ffffff;
+  font-size: 12pt;
+  font-weight: 800;
+  padding: 0.8em 1.5em 0.8em 1.5em;
+}
+.ipmErrorMessage {
+  padding: 10px;
+}
+#header {
+  position: relative;
+}
+#banner {
+  padding: 6.25% 6.25% 3.5% 6.25%;
+  position: relative;
+}
+#banner h2 {
+  font-size: 3.5em;
+  margin: 0.1em 0 0.35em 0;
+}
+#banner p {
+  font-size: 2.75em;
+  line-height: 1.35em;
+  margin: 0;
+}
+#banner ul {
+  margin-left: 2em;
+}
+#banner .button {
+  width: 100%;
+  margin-bottom: 0.5em;
+  padding-right: 0px;
+}
+#banner .button-alt {
+  margin-bottom: 0;
+}
+.logoHeader {
+  float: left;
+}
+.logoHeader div {
+  background: #ff4486;
+  border-radius: 6px;
+  display: inline-block;
+  line-height: 2em;
+  padding-top: 4px;
+}
+.logo a {
+  color: #fff;
+  font-family: 'Oleo Script', serif;
+  font-size: 47px;
+  font-weight: 400;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-top: 5px;
+  padding: 0 10px;
+  text-align: center;
+  text-decoration: none;
+}
+.logoHeader,
+.logoSlogan {
+  font-weight: 800;
+}
+.logoSlogan {
+  font-size: 0.8em;
+  letter-spacing: 0.025em;
+  line-height: 1em;
+  margin-left: 10px;
+  margin-top: 15px;
+  text-align: center;
+}
+.button {
+  font-weight: 800;
+}
+.button {
+  font-family: 'Open Sans', sans-serif;
+}
+.button-alt {
+  background: #F1F1F1;
+  color: #000000;
+}
+#nav {
+  float: right;
+  font-size: 0.8em;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  right: 0;
+  top: 0;
+}
+#nav ul li {
+  float: left;
+  padding-left: 1.5em;
+  white-space: nowrap;
+}
+#nav ul li a {
+  font-weight: 800;
+  letter-spacing: 0.025em;
+  color: #696969;
+  text-decoration: none;
+  border-radius: 6px;
+  padding: 0.5em 1em 0.5em 1em;
+  -moz-transition: background-color .25s ease-in-out;
+  -webkit-transition: background-color .25s ease-in-out;
+  -o-transition: background-color .25s ease-in-out;
+  -ms-transition: background-color .25s ease-in-out;
+  transition: background-color .25s ease-in-out;
+}
+#nav ul li:hover a {
+  background: rgba(255,255,255,0.5);
+}
+#nav ul li.current a {
+  background: #444;
+  color: #fff;
+}
+#footer h2 {
+  font-size: 1.35em;
+}
+#footer a {
+  color: inherit;
+}
+#copyright {
+  padding: 4em 0 0 0;
+  text-align: center;
+}
+#footer {
+  color: #401616;
+}
+#copyright {
+  color: #401616;
+}
+#copyright a {
+  color: inherit;
+}
+.mceContentBody {
+  background-color: ;
+  color: #000000;
+  font-family: ;
+  font-size: ;
+}
+body {
+  background: url('images/bgshadow.png') top left no-repeat;
+  background-size: 100% 100%;
+}
+.body {
+  margin: 0 auto;
+}
+#header-wrapper {
+  padding: 40px 0 1em 0;
+  line-height: 50px;
+}
+#features-wrapper {
+  padding: 3em 0 3em 0;
+}
+#main-wrapper {
+  padding: 4em 0 5em 0;
+}
+#footer-wrapper {
+  padding: 6em 0 8em 0;
+}
+#features-wrapper section,
+#main-wrapper {
+  background-color: ;
+}
+#ipBlock-main h1 {
+  font-size: 2.43em;
+  padding-bottom: 20px;
+}
+#ipBlock-home4 h1 {
+  padding-bottom: 20px;
+}
+.container {
+  max-width: 1200px;
+}
+@media (min-width: 1050px) {
+  #header-wrapper {
+    padding-top: 80px;
+  }
+  #nav,
+  .logoSlogan {
+    font-size: 0.9em;
+  }
+}
+@media (min-width: 860px) {
+  #ipBlock-side1 .ipWidget-IpText {
+    padding: 0 10px;
+  }
+  .bigLinks {
+    padding-right: 40px;
+  }
+}
+@media (max-width: 1050px) {
+  .bigLinks {
+    min-width: 322px;
+  }
+  #banner {
+    font-size: 70%;
+  }
+  .container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  #nav {
+    margin-right: 10px;
+  }
+  .ipWidget img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+@media (max-width: 860px) {
+  .skel-cell-mainContent {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  #banner {
+    display: block;
+  }
+  .row {
+    margin-left: 0px;
+  }
+  .row > * {
+    padding: 0px;
+  }
+  .bannerFullWidth {
+    width: 100%;
+    text-align: center;
+  }
+}
+@media (max-width: 800px) {
+  .\33 u,
+  .\34 u,
+  .\35 u,
+  .\37 u {
+    width: auto;
+  }
+  .ipmControlInput {
+    width: 100%;
+  }
+  .bigLinks {
+    width: 100%;
+    min-width: 0px;
+  }
+  .sidebarContainer {
+    width: 100%;
+  }
+  .mainContainer {
+    width: 100%;
+  }
+  .body {
+    max-width: 100%;
+  }
+  .body img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  .body {
+    line-height: 1.75em;
+    letter-spacing: 0;
+  }
+  .body h2,
+  .body h3,
+  .body h4,
+  .body h5,
+  .body h6 {
+    font-size: 1.215em;
+    margin: 0 0 1em 0;
+  }
+  .image-left {
+    width: 25%;
+    margin-bottom: 2em !important;
+  }
+  .button {
+    font-size: 1.35em;
+    padding: 1.1em 0 1.1em 0;
+    text-align: center;
+    width: 100%;
+  }
+  .box {
+    padding: 15px 15px 15px 15px;
+    margin: 0;
+  }
+  .box-feature {
+    margin: 20px 0 0 0 !important;
+    padding: 0;
+  }
+  .box-feature .inner {
+    padding: 30px 15px 30px 15px;
+  }
+  .box-feature p {
+    margin: 0;
+  }
+  .box-feature .image {
+    position: relative;
+    margin: 0;
+  }
+  .box-feature .image img {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  .widget-thumbnails .image {
+    margin: 0;
+  }
+  .widget-thumbnails .x {
+    padding: 1em 0.5em 0 0;
+  }
+  .widget-thumbnails .y {
+    padding: 1em 0 0 0.5em;
+  }
+  .widget-thumbnails .row:first-child .x,
+  .widget-thumbnails .row:first-child .y {
+    padding-top: 0;
+  }
+  #titleBar .title {
+    display: none;
+  }
+  #titleBar .toggle {
+    height: 50px;
+    opacity: 0.35;
+    text-indent: -9999px;
+    width: 70px;
+  }
+  #titleBar .toggle:before {
+    background: rgba(0,0,0,0.5);
+    border-radius: 6px;
+    content: '';
+    height: 38px;
+    left: 6px;
+    position: absolute;
+    top: 6px;
+    width: 58px;
+  }
+  #titleBar .toggle:after {
+    content: '';
+    position: absolute;
+    left: 21px;
+    top: 20px;
+    width: 44px;
+    height: 44px;
+    background: url('images/mobileUI-site-nav-opener-bg.svg') 0 0 no-repeat;
+  }
+  #titleBar .toggle:active {
+    opacity: 0.75;
+  }
+  #header-wrapper {
+    padding: 44px 0 0px 0;
+  }
+  #banner-wrapper {
+    padding: 0 10px 0 10px;
+  }
+  #features-wrapper {
+    padding: 0 10px 40px 10px;
+  }
+  #main-wrapper {
+    padding: 40px 10px;
+  }
+  #footer-wrapper {
+    padding: 40px 10px;
+  }
+  #logo {
+    text-align: center;
+  }
+  #logo h1 {
+    display: inline-block;
+    margin: 0 0 0.2em 0;
+    padding: 0.25em 0.2em 0.25em 0.2em;
+    font-size: 3.25em;
+    letter-spacing: 0.05em;
+  }
+  #logo p,
+  #logo h1 {
+    float: none;
+  }
+  #logo span {
+    display: block;
+    font-size: 0.9em;
+    letter-spacing: 0.025em;
+    line-height: 150%;
+    margin: 0;
+  }
+  #nav {
+    display: block;
+    position: static;
+    width: 100%;
+  }
+  #nav ul,
+  #nav ul li,
+  #nav ul li a {
+    width: 100%;
+  }
+  #nav ul li {
+    text-align: center;
+  }
+  #banner {
+    padding: 5px;
+    text-align: center;
+  }
+  #banner h2 {
+    font-size: 2em;
+    margin: 0.75em 0 0.5em 0;
+  }
+  #banner p {
+    font-size: 1.5em;
+    line-height: 1.5em;
+    margin: 0;
+  }
+  #banner ul {
+    margin: 0;
+  }
+  #banner .button {
+    margin: 1em 0 0 0;
+  }
+  .body.left-sidebar #content,
+  .body.right-sidebar #content {
+    border-bottom: solid 1px #e8e8e8;
+    padding-bottom: 3em;
+    margin-bottom: 3em !important;
+  }
+  #footer section {
+    border-bottom: solid 1px #ccc;
+    padding-bottom: 2em;
+    margin-bottom: 2em !important;
+  }
+  #footer section.last {
+    padding-bottom: 0;
+    border-bottom: 0;
+    margin-bottom: 0 !important;
+  }
+  #copyright {
+    padding: 2em 0 0 0;
+    border-top: solid 1px #ccc;
+    margin: 4em 0 0 0;
+  }
+  header {
+    padding: 0;
+  }
+  #banner-wrapper {
+    padding: 0;
+  }
+  #features-wrapper {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .bannerFullWidth {
+    padding-bottom: 10px;
+    text-align: center;
+    width: 100%;
+  }
+  .ipPreviewWidget p,
+  .ipPreviewWidget li {
+    line-height: 1.75em;
+  }
+  .mobFullWidth {
+    width: 100%;
+  }
+  .logoHeader {
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+  }
+  .logoSlogan {
+    white-space: normal;
+  }
+  #nav,
+  #nav ul li {
+    float: none;
+    padding: 0 0;
+  }
+  #nav {
+    line-height: 3em;
+  }
+}

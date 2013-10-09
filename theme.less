@@ -1,0 +1,175 @@
+@import 'less/style.less'; 
+@import '@{ipContentDir}/ipContent.less';
+@import 'less/config.less'; 
+@import 'less/ipWidgets.less'; 
+@import 'less/header.less';
+@import 'less/nav.less';
+@import 'less/footer.less';
+@import 'less/tiny_mce.less';
+ 
+@backgroudAlternative: #F1F1F1;
+
+body{
+	background: url('images/bgshadow.png') top left no-repeat;
+	background-size: 100% 100%;
+}
+
+.body{
+	margin: 0 auto;
+}
+
+#header-wrapper {
+	padding: 40px 0 1em 0;
+	line-height: 50px;
+}
+
+#features-wrapper {
+	padding: 3em 0 3em 0;
+}
+
+#main-wrapper {
+	padding: 4em 0 5em 0;
+}
+
+#footer-wrapper {
+	padding: 6em 0 8em 0;
+}
+
+#features-wrapper section, #main-wrapper{
+	background-color: @backgroundColor;
+}
+
+#ipBlock-main h1{
+	font-size: @ipFontSizeBig * 1.8;
+	padding-bottom: 20px;
+}
+
+#ipBlock-home4 h1{
+	padding-bottom: 20px;
+}
+
+.container{
+	max-width: 1200px;
+}
+
+@media (min-width: 1050px){
+	#header-wrapper{
+		padding-top: 80px;
+	}
+
+	#nav, .logoSlogan{
+		font-size: 0.9em;
+	}
+}
+
+@media (min-width: 860px){
+	#ipBlock-side1 .ipWidget-IpText{
+		padding: 0 10px;
+	}
+
+	.bigLinks{
+		padding-right: 40px;
+	}
+}
+
+@media (max-width: 1050px){
+	.bigLinks{
+		min-width: 322px;
+	}
+
+	#banner{
+		font-size: 70%;
+	}
+
+	.container{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	#nav{ 
+		margin-right: 10px;
+	}
+
+	.ipWidget img{
+		max-width: 100%;
+		height: auto;
+	}
+}
+
+@media (max-width: 860px){
+  .skel-cell-mainContent {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  #banner{
+		display: block;
+	}
+
+	.row{
+		margin-left: 0px;
+	}
+
+	.row > * {
+		padding: 0px;
+	}
+
+	.bannerFullWidth{
+		width: 100%;
+		text-align: center;
+	}
+}
+
+@media (max-width: 800px){
+	@import 'less/styleMobile.less';
+
+	header{
+		padding: 0;
+	}
+
+	#banner-wrapper{
+		padding: 0;
+	}
+
+	#features-wrapper{
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+
+	.bannerFullWidth{
+		padding-bottom: 10px;
+		text-align: center;
+		width: 100%;
+	}
+
+	.ipPreviewWidget {
+		p, li{
+			line-height: 1.75em;
+		}
+	}
+
+	.mobFullWidth{
+		width: 100%;
+	}
+
+	.logoHeader{
+		float: none;
+		margin: 0 auto;
+		text-align: center;
+		width: 100%;
+	}
+
+	.logoSlogan{
+		white-space: normal;
+	}
+
+	#nav, #nav ul li{
+		float: none;
+		padding: 0 0;
+	}
+
+	#nav{
+		line-height: 3em;
+	}
+
+}

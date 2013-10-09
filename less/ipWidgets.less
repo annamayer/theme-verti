@@ -1,0 +1,117 @@
+.noSideBarContent .ipPreviewWidget{
+	font-size: 16px;
+}
+
+.noSideBarContent .ipPreviewWidget p{
+	line-height: 2em;
+}
+
+.ipModuleForm {
+	.ipmControlSubmit {
+	    &:hover {
+	    	.bigButtonHoverColor();
+	    }
+	}
+}
+
+
+.ipWidget-IpImage img, .ipWidget-IpImageGallery ul li a img{
+	border-radius: 8px;
+}
+
+.ipWidget-IpImageGallery ul li{
+ 	display: inline-block;
+	padding-right: 7px;
+ }
+
+.ipPreviewWidget{ 
+	p, li{
+		line-height: 2.5em;	
+	}
+
+	h1{
+		line-height: 1.5em;
+	}
+
+	ul{
+		margin: 0;
+	}
+}
+
+footer .ipPreviewWidget{
+	color: @footerColor;
+}
+
+.ipmErrorMessage p{
+	font-family: @ipFontFamily;
+	font-size: @ipFontSize;
+}
+
+.ipWidget-IpLogoGallery li{
+	padding: 0;
+}
+
+h1.ipwTitle{
+	font-size: @ipFontSizeBig;
+}
+
+h2.ipwTitle{
+	font-size: @ipFontSizeBig * 0.9;
+}
+
+h3.ipwTitle{
+	font-size: @ipFontSizeBig * 0.75;
+}
+
+.ipWidget .caption{
+	font-weight: bold;
+	font-style: italic;
+}
+
+
+
+.ipWidget .signature{
+	font-style: italic;	
+	font-size: @ipFontSizeBig * 0.75;
+}
+
+.ipWidget .note{
+	font-size: @ipFontSizeBig;
+}
+
+.ipWidget-IpFaq .ipwQuestion, .ipWidget-IpFaq .ipwAnswer {
+	font-family: @ipFontFamily;
+	font-size: @ipFontSize;
+	font-weight: bold;
+}
+
+.ipWidget-IpLogoGallery ul li {
+	display: inline;
+	list-style: none;
+}
+
+.ipmControlInput, .ipmControlBlank, .ipmControl select, .ipmControl textarea {
+	border: 1px solid #cccccc;
+	font-family: @ipFontFamily;
+	font-size: @ipFontSize;
+}
+
+.ipmControl textarea{
+	width: 100%;
+	height: 200px;
+	overflow: hidden;
+}
+
+.ipmControlSubmit{
+	background-color: @linkColor;
+	border-radius: 5px;
+	border: none;
+	color: #ffffff;
+	font-size: @ipFontSize;
+	font-weight: 800;
+	padding: 0.8em 1.5em 0.8em 1.5em;
+}
+
+.ipmErrorMessage{
+	padding: 10px;
+}
