@@ -89,7 +89,7 @@
   transition: background-color .25s ease-in-out;
 }
 .button:hover {
-  background-color: #e11e1e;
+  background-color: #00b9fd;
 }
 .button-icon {
   position: relative;
@@ -255,14 +255,14 @@ body {
   padding: 0;
 }
 .caption {
-  color: #000000;
+  color: #696969;
   font-family: 'Oleo Script', serif;
   font-size: 1.35em;
   font-style: normal;
   font-weight: normal;
 }
 .signature {
-  color: #000000;
+  color: #696969;
   font-family: 'Open Sans', sans-serif;
   font-size: 12pt;
   font-style: italic;
@@ -273,7 +273,7 @@ body {
   border-left-color: #747474;
   border-left-style: solid;
   border-left-width: 2px;
-  color: #000000;
+  color: #696969;
   display: block;
   font-family: 'Open Sans', sans-serif;
   font-size: 12pt;
@@ -283,7 +283,7 @@ body {
   padding-left: 1em;
 }
 .button {
-  background-color: #a71616;
+  background-color: #0090c5;
   border-radius: 5px;
   color: #fff;
   cursor: pointer;
@@ -315,7 +315,7 @@ body {
   margin-bottom: 0;
 }
 .ipPreviewWidget {
-  color: #000000;
+  color: #696969;
   font-family: 'Open Sans', sans-serif;
   font-size: 12pt;
 }
@@ -340,14 +340,14 @@ body {
   padding: 0;
 }
 .ipPreviewWidget .caption {
-  color: #000000;
+  color: #696969;
   font-family: 'Oleo Script', serif;
   font-size: 1.35em;
   font-style: normal;
   font-weight: normal;
 }
 .ipPreviewWidget .signature {
-  color: #000000;
+  color: #696969;
   font-family: 'Open Sans', sans-serif;
   font-size: 12pt;
   font-style: italic;
@@ -358,7 +358,7 @@ body {
   border-left-color: #747474;
   border-left-style: solid;
   border-left-width: 2px;
-  color: #000000;
+  color: #696969;
   display: block;
   font-family: 'Open Sans', sans-serif;
   font-size: 12pt;
@@ -382,7 +382,7 @@ body {
   transition: background-color .25s ease-in-out;
   font-size: 1.35em;
   padding: 0.8em 1.5em 0.8em 1.5em;
-  background-color: #a71616;
+  background-color: #0090c5;
   border-radius: 5px;
   cursor: pointer;
   font-family: 'Open Sans', sans-serif;
@@ -390,17 +390,17 @@ body {
   padding: 0.5em 1em 0.5em 1em;
 }
 .ipPreviewWidget h1 {
-  color: #cc2929;
+  color: #444;
   font-family: 'Open Sans', sans-serif;
   font-size: 1.6875em;
 }
 .ipPreviewWidget h2 {
-  color: #cc2929;
+  color: #444;
   font-family: 'Open Sans', sans-serif;
   font-size: 1.51875em;
 }
 .ipPreviewWidget h3 {
-  color: #cc2929;
+  color: #444;
   font-family: 'Open Sans', sans-serif;
   font-size: 1.35em;
 }
@@ -430,7 +430,7 @@ body {
   margin-top: -1em;
 }
 .ipPreviewWidget a {
-  color: #a71616;
+  color: #0090c5;
   text-decoration: none;
 }
 .ipPreviewWidget a:hover {
@@ -438,7 +438,7 @@ body {
 }
 .ipPreviewWidget table {
   border-collapse: collapse;
-  color: #000000;
+  color: #696969;
   font-family: 'Open Sans', sans-serif;
   font-size: 12pt;
   width: 100%;
@@ -533,7 +533,7 @@ body {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  color: #000000;
+  color: #696969;
   margin: 0;
   max-width: 380px;
   padding: 0.5em;
@@ -542,7 +542,7 @@ body {
 .ipModuleForm .ipmControlInput:focus {
   background-color: #fff;
   border-color: #000;
-  color: #000000;
+  color: #696969;
 }
 .ipModuleForm .ipmControlTextarea {
   background-color: #fff;
@@ -550,7 +550,7 @@ body {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  color: #000000;
+  color: #696969;
   margin: 0;
   max-width: 380px;
   padding: 0.5em;
@@ -561,7 +561,7 @@ body {
 .ipModuleForm .ipmControlTextarea:focus {
   background-color: #fff;
   border-color: #000;
-  color: #000000;
+  color: #696969;
 }
 .ipModuleForm .ipmControlSelect {
   background-color: #fff;
@@ -569,7 +569,7 @@ body {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  color: #000000;
+  color: #696969;
   margin: 0;
   max-width: 380px;
   padding: 0.5em;
@@ -578,7 +578,7 @@ body {
 .ipModuleForm .ipmControlSelect:focus {
   background-color: #fff;
   border-color: #000;
-  color: #000000;
+  color: #696969;
 }
 .ipModuleForm .ipmType-confirm .ipmControlCheckbox {
   float: left;
@@ -591,7 +591,7 @@ body {
   max-width: 100%;
 }
 .ipModuleForm .ipmNote {
-  color: #333333;
+  color: #9c9c9c;
   font-size: 12px;
 }
 .ipModuleForm .ipmHint {
@@ -610,7 +610,7 @@ body {
   display: block;
 }
 .ipModuleForm .ipmControlSubmit {
-  background: #a71616;
+  background: #0090c5;
   border: none;
   border-radius: 3px;
   color: #fff;
@@ -621,8 +621,8 @@ body {
   padding: 0.5em 1em;
 }
 .ipModuleForm .ipmControlSubmit:hover {
-  box-shadow: 0 0 0 1px #a71616 inset;
-  background: #4d0a0a;
+  box-shadow: 0 0 0 1px #0090c5 inset;
+  background: #00455f;
 }
 .ipModuleForm .ipmControlError {
   border-color: #b80000;
@@ -649,7 +649,7 @@ body {
   border: 1px solid #747474;
   font-family: Verdana, Geneva, sans-serif;
   font-size: 13px;
-  color: #000000;
+  color: #696969;
   content: '\00D7';
   display: inline-block;
   height: 15px;
@@ -680,7 +680,7 @@ body {
   padding: 4px 10px 2px;
 }
 .mceContentBody {
-  color: #000000;
+  color: #696969;
   font-family: 'Open Sans', sans-serif;
   font-size: 12pt;
   background-color: #fff;
@@ -706,14 +706,14 @@ body {
   padding: 0;
 }
 .mceContentBody .caption {
-  color: #000000;
+  color: #696969;
   font-family: 'Oleo Script', serif;
   font-size: 1.35em;
   font-style: normal;
   font-weight: normal;
 }
 .mceContentBody .signature {
-  color: #000000;
+  color: #696969;
   font-family: 'Open Sans', sans-serif;
   font-size: 12pt;
   font-style: italic;
@@ -724,7 +724,7 @@ body {
   border-left-color: #747474;
   border-left-style: solid;
   border-left-width: 2px;
-  color: #000000;
+  color: #696969;
   display: block;
   font-family: 'Open Sans', sans-serif;
   font-size: 12pt;
@@ -748,7 +748,7 @@ body {
   transition: background-color .25s ease-in-out;
   font-size: 1.35em;
   padding: 0.8em 1.5em 0.8em 1.5em;
-  background-color: #a71616;
+  background-color: #0090c5;
   border-radius: 5px;
   cursor: pointer;
   font-family: 'Open Sans', sans-serif;
@@ -756,17 +756,17 @@ body {
   padding: 0.5em 1em 0.5em 1em;
 }
 .mceContentBody h1 {
-  color: #cc2929;
+  color: #444;
   font-family: 'Open Sans', sans-serif;
   font-size: 1.6875em;
 }
 .mceContentBody h2 {
-  color: #cc2929;
+  color: #444;
   font-family: 'Open Sans', sans-serif;
   font-size: 1.51875em;
 }
 .mceContentBody h3 {
-  color: #cc2929;
+  color: #444;
   font-family: 'Open Sans', sans-serif;
   font-size: 1.35em;
 }
@@ -796,7 +796,7 @@ body {
   margin-top: -1em;
 }
 .mceContentBody a {
-  color: #a71616;
+  color: #0090c5;
   text-decoration: none;
 }
 .mceContentBody a:hover {
@@ -804,7 +804,7 @@ body {
 }
 .mceContentBody table {
   border-collapse: collapse;
-  color: #000000;
+  color: #696969;
   font-family: 'Open Sans', sans-serif;
   font-size: 12pt;
   width: 100%;
@@ -850,7 +850,7 @@ body {
   padding-left: 30px;
 }
 .ipWidget-IpFaq .ipwQuestion {
-  color: #000000;
+  color: #696969;
   cursor: pointer;
   font-family: 'Oleo Script', serif;
   font-size: 18px;
@@ -867,7 +867,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 11px;
   font-weight: bold;
-  color: #000000;
+  color: #696969;
   content: '?';
   display: block;
   margin: 3px 0 0 -30px;
@@ -889,7 +889,7 @@ body {
   margin-left: 0;
 }
 .ipWidget-IpFile a {
-  color: #a71616;
+  color: #0090c5;
   font-weight: bold;
 }
 .ipWidget-IpFile a:hover {
@@ -1007,7 +1007,7 @@ body {
   line-height: 2em;
 }
 .ipModuleForm .ipmControlSubmit:hover {
-  background-color: #e11e1e;
+  background-color: #00b9fd;
 }
 .ipWidget-IpImage img,
 .ipWidget-IpImageGallery ul li a img {
@@ -1028,7 +1028,7 @@ body {
   margin: 0;
 }
 footer .ipPreviewWidget {
-  color: #401616;
+  color: #696969;
 }
 .ipmErrorMessage p {
   font-family: 'Open Sans', sans-serif;
@@ -1081,7 +1081,7 @@ h3.ipwTitle {
   overflow: hidden;
 }
 .ipmControlSubmit {
-  background-color: #a71616;
+  background-color: #0090c5;
   border-radius: 5px;
   border: none;
   color: #ffffff;
@@ -1161,7 +1161,7 @@ h3.ipwTitle {
 }
 .button-alt {
   background: #F1F1F1;
-  color: #000000;
+  color: #696969;
 }
 #nav {
   float: right;
@@ -1207,17 +1207,17 @@ h3.ipwTitle {
   text-align: center;
 }
 #footer {
-  color: #401616;
+  color: #696969;
 }
 #copyright {
-  color: #401616;
+  color: #696969;
 }
 #copyright a {
   color: inherit;
 }
 .mceContentBody {
   background-color: ;
-  color: #000000;
+  color: #696969;
   font-family: ;
   font-size: ;
 }
