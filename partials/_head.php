@@ -12,7 +12,6 @@ $site->addCss('http://fonts.googleapis.com/css?family=Open+Sans:300,800');
 $site->addCss('http://fonts.googleapis.com/css?family=Oleo+Script:400');
 $site->addCss(BASE_URL.THEME_DIR.THEME.'/css/skel-noscript.css');
 $site->addCss(BASE_URL.THEME_DIR.THEME.'/theme.css');
-$site->addCss(BASE_URL.LIBRARY_DIR.'/theme.css');
 $site->addCss(BASE_URL.LIBRARY_DIR.'js/colorbox/themes/'.intval($this->getThemeOption('lightboxStyle')).'/colorbox.css');
 echo $site->generateHead(); 
 
